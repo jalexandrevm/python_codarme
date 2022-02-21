@@ -1,5 +1,31 @@
 # Módulo 06
 
+## Índice
+
+1. [Listas - list](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#listas---list)
+   1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o)
+   2. [Mutabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#mutabilidade)
+   3. [Ordenação](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#ordena%C3%A7%C3%A3o)
+   4. [Heterogeneidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#heterogeneidade)
+   5. [Iteração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#itera%C3%A7%C3%A3o)
+2. [Tuplas - tuple](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#tuplas---tuple)
+   1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o-1)
+   2. [Utilização](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#utiliza%C3%A7%C3%A3o)
+   3. [Imutabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#imutabilidade)
+3. [Conjuntos - set](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#conjuntos---set)
+   1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o-2)
+   2. [Mutabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#mutabilidade-1)
+   3. [Utilização](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#utiliza%C3%A7%C3%A3o-1)
+4. [Dicionários - map](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#dicion%C3%A1rios---map)
+   1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o-3)
+   2. [Mutabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#mutabilidade-2)
+   3. [Utilização](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#utiliza%C3%A7%C3%A3o-2)
+5. [Loop for](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#loop-for)
+   1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o-4)
+   2. [Iterabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#iterabilidade)
+   3. [Utilização](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#utiliza%C3%A7%C3%A3o-3)
+
+
 ## Listas - list
 
 ### Declaração
