@@ -2,28 +2,28 @@
 
 ## Índice
 
-1. [Listas - list](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#listas---list)
-   1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o)
-   2. [Mutabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#mutabilidade)
-   3. [Ordenação](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#ordena%C3%A7%C3%A3o)
-   4. [Heterogeneidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#heterogeneidade)
-   5. [Iteração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#itera%C3%A7%C3%A3o)
-2. [Tuplas - tuple](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#tuplas---tuple)
-   1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o-1)
-   2. [Utilização](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#utiliza%C3%A7%C3%A3o)
-   3. [Imutabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#imutabilidade)
-3. [Conjuntos - set](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#conjuntos---set)
-   1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o-2)
-   2. [Mutabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#mutabilidade-1)
-   3. [Utilização](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#utiliza%C3%A7%C3%A3o-1)
-4. [Dicionários - map](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#dicion%C3%A1rios---map)
-   1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o-3)
-   2. [Mutabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#mutabilidade-2)
-   3. [Utilização](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#utiliza%C3%A7%C3%A3o-2)
+1. [Listas - list](#listas---list)
+   1. [Declaração](#declara%C3%A7%C3%A3o)
+   2. [Mutabilidade](#mutabilidade)
+   3. [Ordenação](#ordena%C3%A7%C3%A3o)
+   4. [Heterogeneidade](#heterogeneidade)
+   5. [Iteração](#itera%C3%A7%C3%A3o)
+2. [Tuplas - tuple](#tuplas---tuple)
+   1. [Declaração](#declara%C3%A7%C3%A3o-1)
+   2. [Utilização](#utiliza%C3%A7%C3%A3o)
+   3. [Imutabilidade](#imutabilidade)
+3. [Conjuntos - set](#conjuntos---set)
+   1. [Declaração](#declara%C3%A7%C3%A3o-2)
+   2. [Mutabilidade](#mutabilidade-1)
+   3. [Utilização](#utiliza%C3%A7%C3%A3o-1)
+4. [Dicionários - map](#dicion%C3%A1rios---map)
+   1. [Declaração](#declara%C3%A7%C3%A3o-3)
+   2. [Mutabilidade](#mutabilidade-2)
+   3. [Utilização](#utiliza%C3%A7%C3%A3o-2)
 5. [Loop for](#loop-for)
-   1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o-4)
-   2. [Iterabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#iterabilidade)
-   3. [Utilização](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#utiliza%C3%A7%C3%A3o-3)
+   1. [Declaração](#declara%C3%A7%C3%A3o-4)
+   2. [Iterabilidade](#iterabilidade)
+   3. [Utilização](#utiliza%C3%A7%C3%A3o-3)
 
 
 ## Listas - list
@@ -121,6 +121,7 @@ media = soma / qtd_notas
 print("Média de:", media)
 ```
 ---
+[Volter ao Topo](#m%C3%B3dulo-06)
 ---
 ## Tuplas - tuple
 
@@ -182,6 +183,7 @@ ano = carro[2]
 marca, modelo, ano = carro
 ```
 ---
+[Volter ao Topo](#m%C3%B3dulo-06)
 ---
 ## Conjuntos - set
 
@@ -253,6 +255,7 @@ frutas_unicas = set(frutas)
 print(frutas_unicas)
 ```
 ---
+[Volter ao Topo](#m%C3%B3dulo-06)
 ---
 ## Dicionários - map
 
@@ -306,6 +309,7 @@ Com os *dicionário* tabém é possível ter dicionários dentro de dicionários
 ]
 ```
 ---
+[Volter ao Topo](#m%C3%B3dulo-06)
 ---
 ## Loop for
 
@@ -386,6 +390,7 @@ for chv, vlr in aluno.items():
 
 ```
 ---
+[Volter ao Topo](#m%C3%B3dulo-06)
 ---
 
 
