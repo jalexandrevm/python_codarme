@@ -163,7 +163,7 @@ Os *conjuntos* são bem parecidas com as *listas* e podem até serem declarados 
 
 ### Declaração
 
-Na *declaração da variável* do tipo set no lugar dos *colchetes* usamos *chaves* ou também podemos usar ´set()´ para, com uma lista, criarmos nosso conjunto
+Na *declaração da variável* do tipo set no lugar dos *colchetes* usamos *chaves* ou também podemos usar `set()` para, com uma lista, criarmos nosso conjunto
 
 ```python
 esportes = {"volei", "basquete"}
