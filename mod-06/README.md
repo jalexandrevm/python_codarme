@@ -20,7 +20,7 @@
    1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o-3)
    2. [Mutabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#mutabilidade-2)
    3. [Utilização](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#utiliza%C3%A7%C3%A3o-2)
-5. [Loop for](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#loop-for)
+5. [Loop for](#loop-for)
    1. [Declaração](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#declara%C3%A7%C3%A3o-4)
    2. [Iterabilidade](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#iterabilidade)
    3. [Utilização](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06#utiliza%C3%A7%C3%A3o-3)
