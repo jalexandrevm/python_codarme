@@ -61,7 +61,7 @@ else:
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-06)
+[Voltar ao Topo](#m%C3%B3dulo-05)
 
 ---
 
@@ -109,7 +109,7 @@ print(pessoas)
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-06)
+[Voltar ao Topo](#m%C3%B3dulo-05)
 
 ---
 
@@ -273,7 +273,7 @@ print("perdeu" if perdeujogo else "ganhou")
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-06)
+[Voltar ao Topo](#m%C3%B3dulo-05)
 
 ---
 
