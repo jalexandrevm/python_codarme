@@ -1,8 +1,12 @@
 # Exercícios Python Completo Codar.me
 
-Neste repositório, apresentarei todas as atividades referentes ao curso **Python Completo com a CODAR.me**
+Neste repositório, apresentarei os resumos e atividades de cada módulo referentes ao curso **Python Completo com a CODAR.me**
 
-A medida que for incluindo os arquivos, pretendo deixar uma breve explicação sobre os códigos contidos em cada e seus propósitos
+A medida que for incluindo os módulos, pretendo deixar uma breve explicação sobre o código contido e as atividades em cada
+
+## Módulo 02
+
+Apresentação e nivelamento para a turma entender fundamentos básicos sobre tecnologia
 
 Vamos a relação dos arquivos e suas finalidades
 
@@ -29,10 +33,14 @@ Esse *script* é apenas um exemplo de execução, pelo terminal de comandos, de 
 Seu conteúdo possui apenas um comando *shebang* na primeira linha, informando o interpretador que deve ser usado para executar os comando a seguir
 
 ---
+
 [Voltar ao Topo](#exerc%C3%ADcios-python-completo-codarme)
+
 ---
 
 ## Módulo 03
+
+Conhecimentos fundamentais da linguagem python e suas operações com alguns exercícios para fixação
 
 ### mod03_exerc1.py
 ---
@@ -52,10 +60,14 @@ print("o custo médio ficou em: "+str((valor_compras-desconto)/quantidade_itens)
 ```
 
 ---
+
 [Voltar ao Topo](#exerc%C3%ADcios-python-completo-codarme)
+
 ---
 
 ## Módulo 04
+
+Agora começamos a fazer operações com variáveis e a interagir com o usuário solicitando entradas
 
 ### mod04_exerc1.py
 ---
@@ -78,11 +90,12 @@ Esta atividade usa novamente a entrada do usuário junto com a conversão de tip
 Ao final faz um teste relacional para verificar se um cálculo pode ou não ser feito
 
 ---
+
 [Voltar ao Topo](#exerc%C3%ADcios-python-completo-codarme)
+
 ---
 
 ## Módulo 05
-
 
 Neste módulo vamos trabalhar com as *condições* **if/else/elif** e o *loop* **while**
 
@@ -142,6 +155,19 @@ No *próprio programa* declaramos como uma *constante* um valor qualquer para se
 Caso o usuário *erre* 3 vezes deve ser impresso **"perdeu"** e caso *acerte* imprimir **"ganhou"**
 
 ---
+
 [Voltar ao Topo](#exerc%C3%ADcios-python-completo-codarme)
+
+---
+
+
+## [Módulo 06](https://github.com/jalexandrevm/python_codarme/tree/main/mod-06)
+
+Neste módulo veremos 4 tipos de variáveis para trabalhar com estruturas de dados e o loop for para iterar com eles
+
+---
+
+[Voltar ao Topo](#exerc%C3%ADcios-python-completo-codarme)
+
 ---
 
