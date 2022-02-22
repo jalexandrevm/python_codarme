@@ -9,13 +9,12 @@
    4. [Função com argumentos nomeados](#fun%C3%A7%C3%A3o-com-argumentos-nomeados)
    5. [Função com argumento padrão](#fun%C3%A7%C3%A3o-com-argumento-padr%C3%A3o)
 2. [Exercícios](#exerc%C3%ADcios)
-   1. []()
-   2. []()
-   3. []()
-   4. []()
-   5. []()
-   6. []()
-   7. []()
+   1. [Número é primo](#n%C3%BAmero-%C3%A9-primo)
+   2. [Maior da lista e posição](#maior-da-lista-e-posi%C3%A7%C3%A3o)
+   3. [Maior de idade pessoa tupla](#maior-de-idade-pessoa-tupla)
+   4. [Maior de idade pessoa tupla ou dicionário](#maior-de-idade-pessoa-tupla-ou-dicion%C3%A1rio)
+   5. [Elemento tem na lista](#elemento-tem-na-lista)
+   6. [Fatorial recursivo](#fatorial-recursivo)
 
 ## Funções
 
