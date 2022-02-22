@@ -71,7 +71,7 @@ Esta estrutura tem como finalidade repetir um bloco de códigos enquanto uma con
 
 ### Declaração
 
-Sua declaçração é feita com o teste de uma condição no início do bloco a ser repetido
+Sua declaçração é feita com o teste da condição no início, antes do bloco a ser repetido, e em seguida a condição precisa ser atualizada para o novo teste
 
 ```python
 while condição:
@@ -81,26 +81,22 @@ while condição:
 
 ### Utilização
 
-Normalmente as *tuplas* é que são preferidas para o uso com *valores diferentes* ao invés das listas
+Normalmente os *loops*, como chamamos as repetições, são muito usados para percorrer uma variável ou valor que possua um índice posicional
 
-Quando usamos *listas*, normalmente esperamos que seu conteúdo seja do *mesmo tipo* e caso sejam de objetos esses sim seriam de tuplas
+Quando usamos o *while* precisamos nos preocupar com a atualização da condição de teste dele, caso a condição não mude o loop será infinito
 
-Melhorando o código anteriormente usado podemos usar a *boa prática* de fazer os *objetos* do tipo *tupla* e as listas deles como listas normais
+A forma mais básica de uso do while é para ler todos os números de uma lista para somar ou tirar a média ou até mesmo para achar o maior ou menor número
 
 ```python
-pessoas = [
-  ("Paulo", 35, 9598542316),
-  ("Pedro", 23, 17999453241),
-]
-
-pessoa = ("João", 21, 11981176152)
-
-print(pessoas)
-print(pessoa)
-
-pessoas.insert(0,pessoa)
-
-print(pessoas)
+lista = [9, 10, 8.5, 9.5]
+soma = 0
+indice = 0
+tamanho_lista = len(lista)
+while indice < tamanho_lista:
+	soma = soma + lista[indice]
+	indice = indice + 1
+print("soma dos números igual a:", soma)
+print("média dos números igual a:", (soma/tamanho_lista))
 
 ```
 
