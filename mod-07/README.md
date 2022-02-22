@@ -2,13 +2,13 @@
 
 ## Índice
 
-1. [Funções]()
-   1. [Declaração]()
-   2. [Função sem retorno]()
-   3. [Função com retorno]()
-   4. [Função com argumentos nomeados]()
-   5. [Função com argumento padrão]()
-2. [Exercícios]()
+1. [Funções](#fun%C3%A7%C3%B5es)
+   1. [Declaração](#declara%C3%A7%C3%A3o)
+   2. [Função sem retorno](#fun%C3%A7%C3%A3o-sem-retorno)
+   3. [Função com retorno](#fun%C3%A7%C3%A3o-com-retorno)
+   4. [Função com argumentos nomeados](#fun%C3%A7%C3%A3o-com-argumentos-nomeados)
+   5. [Função com argumento padrão](#fun%C3%A7%C3%A3o-com-argumento-padr%C3%A3o)
+2. [Exercícios](#exerc%C3%ADcios)
    1. []()
    2. []()
    3. []()
@@ -32,7 +32,9 @@ def nome_função(parâmetros):
 Uma função pode ou não ter parâmetros informados em sua chamada assim como retornar ou não algum valor
 
 ---
+
 [Voltar ao Topo](#m%C3%B3dulo-07)
+
 ---
 
 ### Função sem retorno
@@ -73,7 +75,9 @@ for item in alunos:
 ```
 
 ---
+
 [Voltar ao Topo](#m%C3%B3dulo-07)
+
 ---
 
 ### Função com retorno
@@ -98,7 +102,9 @@ print("Média de:", media_notas(notas))
 ```
 
 ---
+
 [Voltar ao Topo](#m%C3%B3dulo-07)
+
 ---
 
 ### Função com argumentos nomeados
@@ -119,7 +125,9 @@ apresente("George", ano=2019, curso="Java")
 Precisamos sempre lembrar que quando usamos argumentos nomeados estes devem estar após os posicionais como no código acima
 
 ---
+
 [Voltar ao Topo](#m%C3%B3dulo-07)
+
 ---
 
 ### Função com argumento padrão
@@ -142,13 +150,17 @@ Neste caso, caso os dois últimos parâmetros não sejam informados, os valores 
 Caso algum argumento seja informado na chamada da função, os valores serão sobrepostos ao padrão definido
 
 ---
+
 [Voltar ao Topo](#m%C3%B3dulo-07)
+
 ---
 
 ## Exercícios
 
 ---
+
 [Voltar ao Topo](#m%C3%B3dulo-07)
+
 ---
 
 
