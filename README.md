@@ -95,64 +95,9 @@ Ao final faz um teste relacional para verificar se um cálculo pode ou não ser 
 
 ---
 
-## Módulo 05
+## [Módulo 05](https://github.com/jalexandrevm/python_codarme/tree/main/mod-05)
 
 Neste módulo vamos trabalhar com as *condições* **if/else/elif** e o *loop* **while**
-
-
-### mod05_condicao_exerc1.py
----
-Esta atividade apresenta o *famoso clássico problema* usado pela programação, o ***"FizzBuzz"***
-
-Neste problema, devemos receber do usuário um inteiro para testá-lo e informar se o mesmo pode ser dividido por:
-- 3, imprimindo **"Fizz"**
-- 5, imprimindo **"Buzz"**
-- 15, imprimindo **"FizzBuzz"**
-
-### mod05_condicao_exerc2.py
----
-Esta atividade pede a implementação de uma calculadora solicitando ao usuário 3 dados:
-
-1. operador 1
-2. operador 2
-3. a operação que será feita
-
-A calculadora deve imprimir **“Não é possível realizar divisão por
-zero!”** caso o operador 2 seja zero **e** a operação seja a *divisão*
-
-### mod05_condicao_exerc3.py
----
-
-Esta atividade pede ao usuário o seu usuário e a senha para a autenticação de um serviço
-
-O programa deve informar se:
-
-- Autenticação foi bem sucedida
-- Usuário existe ou não
-- Senha está correta ou não
-
-Para esta atividade os valores de teste de *usuário* e *senha* são constantes dentro do próprio programa
-
-### mod05_while_exerc1.py
----
-
-Nesta ativiadade usamos o loop *while* para **somar** todos os inteiros positivos a partir do 1 até um *número* fornecido pelo *usuário*
-
-### mod05_while_exerc2.py
----
-Agora vamos imprimir apenas os números **pares** do intervalo entre o 1 e o número informado pelo *usuário*
-
-### mod05_while_exerc3.py
----
-Nesta atividade, usamos o loop *while* para testar se um número passado pelo usuário é **primo** ou não
-
-### mod05_while_exerc4.py
----
-Nesta atividade usamos o loop *while* para dar ao usuário *3 tentativas* para acertar o **número secreto**
-
-No *próprio programa* declaramos como uma *constante* um valor qualquer para ser **descoberto**
-
-Caso o usuário *erre* 3 vezes deve ser impresso **"perdeu"** e caso *acerte* imprimir **"ganhou"**
 
 ---
 
