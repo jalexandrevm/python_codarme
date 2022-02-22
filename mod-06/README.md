@@ -121,7 +121,7 @@ media = soma / qtd_notas
 print("Média de:", media)
 ```
 ---
-[Volter ao Topo](#m%C3%B3dulo-06)
+[Voltar ao Topo](#m%C3%B3dulo-06)
 ---
 ## Tuplas - tuple
 
@@ -183,7 +183,7 @@ ano = carro[2]
 marca, modelo, ano = carro
 ```
 ---
-[Volter ao Topo](#m%C3%B3dulo-06)
+[Voltar ao Topo](#m%C3%B3dulo-06)
 ---
 ## Conjuntos - set
 
@@ -255,7 +255,7 @@ frutas_unicas = set(frutas)
 print(frutas_unicas)
 ```
 ---
-[Volter ao Topo](#m%C3%B3dulo-06)
+[Voltar ao Topo](#m%C3%B3dulo-06)
 ---
 ## Dicionários - map
 
@@ -390,7 +390,7 @@ for chv, vlr in aluno.items():
 
 ```
 ---
-[Volter ao Topo](#m%C3%B3dulo-06)
+[Voltar ao Topo](#m%C3%B3dulo-06)
 ---
 
 
