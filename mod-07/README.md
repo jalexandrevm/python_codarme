@@ -31,6 +31,10 @@ def nome_função(parâmetros):
 
 Uma função pode ou não ter parâmetros informados em sua chamada assim como retornar ou não algum valor
 
+---
+[Voltar ao Topo](#m%C3%B3dulo-07)
+---
+
 ### Função sem retorno
 
 Uma situação mais real de uso de uma função seriam funções que executam operações com variáveis
@@ -68,6 +72,10 @@ for item in alunos:
 
 ```
 
+---
+[Voltar ao Topo](#m%C3%B3dulo-07)
+---
+
 ### Função com retorno
 
 Outra possibilidade é o retorno de alguma coisa após efetuar operações com dados repassados, como argumentos, na chamada da função como a seguir:
@@ -89,6 +97,10 @@ notas = [9.5, 10, 8, 7.5]
 print("Média de:", media_notas(notas))
 ```
 
+---
+[Voltar ao Topo](#m%C3%B3dulo-07)
+---
+
 ### Função com argumentos nomeados
 
 Quando precisamos usar muitos parâmetros em uma função pode ficar complicado identificar ou até mesmo localizar um ou outro
@@ -105,6 +117,10 @@ apresente("George", ano=2019, curso="Java")
 ```
 
 Precisamos sempre lembrar que quando usamos argumentos nomeados estes devem estar após os posicionais como no código acima
+
+---
+[Voltar ao Topo](#m%C3%B3dulo-07)
+---
 
 ### Função com argumento padrão
 
@@ -126,11 +142,13 @@ Neste caso, caso os dois últimos parâmetros não sejam informados, os valores 
 Caso algum argumento seja informado na chamada da função, os valores serão sobrepostos ao padrão definido
 
 ---
+[Voltar ao Topo](#m%C3%B3dulo-07)
 ---
 
 ## Exercícios
 
 ---
+[Voltar ao Topo](#m%C3%B3dulo-07)
 ---
 
 
