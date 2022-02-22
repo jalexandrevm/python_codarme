@@ -57,9 +57,9 @@ else:
 
 Com base na estrutura básica acima, temos:
 
--. Caso a condição_1 seja verdadeira o bloco_códigos_1 será executado e todos os outros serão ignorados
--. Caso a condição_1 esteja falsa o teste passa para a condição_2 e assim por diante até um ser verdadeiro
--. Caso todas as condições estejam falsas, o bloco_código_else é executado. Vale lembrar que os blocos else assim como o elif são opcionais
+- Caso a condição_1 seja verdadeira o bloco_códigos_1 será executado e todos os outros serão ignorados
+- Caso a condição_1 esteja falsa o teste passa para a condição_2 e assim por diante até um ser verdadeiro
+- Caso todas as condições estejam falsas, o bloco_código_else é executado. Vale lembrar que os blocos else assim como o elif são opcionais
 
 Mesmo *declarando valores iniciais* na inicialização da variável, podemos usar diversos métodos para manipulá-la, como:
 
