@@ -24,6 +24,15 @@
    1. [Declaração](#declara%C3%A7%C3%A3o-4)
    2. [Iterabilidade](#iterabilidade)
    3. [Utilização](#utiliza%C3%A7%C3%A3o-3)
+6. [Exercícios]()
+   1. [Lista inteiros](#declara%C3%A7%C3%A3o-4)
+   2. [Soma lista inteiros](#iterabilidade)
+   3. [Média lista inteiros](#utiliza%C3%A7%C3%A3o-3)
+   4. [Média notas alunos](#declara%C3%A7%C3%A3o-4)
+   5. [Média notas alunos dicionário - map](#iterabilidade)
+   6. [Lista imprime maior](#utiliza%C3%A7%C3%A3o-3)
+   7. [Dicionário conta letras](#iterabilidade)
+   8. [Lista imprime invertido](#utiliza%C3%A7%C3%A3o-3)
 
 
 ## Listas - list
@@ -120,9 +129,13 @@ media = soma / qtd_notas
 
 print("Média de:", media)
 ```
+
 ---
+
 [Voltar ao Topo](#m%C3%B3dulo-06)
+
 ---
+
 ## Tuplas - tuple
 
 As *tuplas* são bem parecidas com as *listas* mas com algumas peculiaridades
@@ -182,9 +195,13 @@ ano = carro[2]
 # usamos assim
 marca, modelo, ano = carro
 ```
+
 ---
+
 [Voltar ao Topo](#m%C3%B3dulo-06)
+
 ---
+
 ## Conjuntos - set
 
 Os *conjuntos* são bem parecidas com as *listas* e podem até serem declarados a partir delas
@@ -254,9 +271,13 @@ frutas_unicas = set(frutas)
 
 print(frutas_unicas)
 ```
+
 ---
+
 [Voltar ao Topo](#m%C3%B3dulo-06)
+
 ---
+
 ## Dicionários - map
 
 O *dicionário* é outra estrutura muito usada quando trabalhamos com dados por sua estrutura
@@ -308,9 +329,13 @@ Com os *dicionário* tabém é possível ter dicionários dentro de dicionários
 	{ "mask": "+32(67)##-##-##", "cc": "BE", "cd": "Belgium", "city": "Ath" },
 ]
 ```
+
 ---
+
 [Volter ao Topo](#m%C3%B3dulo-06)
+
 ---
+
 ## Loop for
 
 O *loop for* é uma estrutura de repetição, parecida com o while, muito usada quando precisamos iterar com dados
@@ -389,10 +414,57 @@ for chv, vlr in aluno.items():
   print(chv, vlr)
 
 ```
----
-[Voltar ao Topo](#m%C3%B3dulo-06)
+
 ---
 
+[Voltar ao Topo](#m%C3%B3dulo-06)
+
+---
+
+## Exercícios
+
+As atividades deste módulo ajudam a entender e a trabalhar com dados de diversas maneiras possíveis
+
+### Lista inteiros
+
+Criar lista de inteiros positivos a partir da entrada do usuário que se repete até informar número negativo
+
+### Soma lista inteiros
+
+Criar programa que some todos os números de uma lista fornecida
+
+### Média lista inteiros
+
+Criar programa que calcule a média dos números de uma lista fornecida
+
+### Média notas alunos
+
+Criar programa que calcule a média das notas dos alunos de uma lista de tuplas
+
+### Média notas alunos dicionário - map
+
+Criar programa que calcule a média das notas dos alunos de uma lista de dicionários ou map
+
+### Lista imprime maior
+
+Criar programa que imprime maior número de uma lista
+
+### Dicionário conta letras
+
+Criar prorgama que conte as letras de uma string passada pelo usuário, palavra ou frase inteira
+
+### Lista imprime invertido
+
+Criar programa que imprima uma lista invertida **sem os métodos** `reverse()` ou `sort()`
+
+
+
+
+---
+
+[Voltar ao Topo](#m%C3%B3dulo-06)
+
+---
 
 
 
