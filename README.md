@@ -171,3 +171,14 @@ Neste módulo veremos 4 tipos de variáveis para trabalhar com estruturas de dad
 
 ---
 
+
+## [Módulo 07](https://github.com/jalexandrevm/python_codarme/tree/main/mod-07)
+
+Neste módulo aprenderemos a trabalhar com funções e seus diversos tipos de implementaçôes
+
+---
+
+[Voltar ao Topo](#exerc%C3%ADcios-python-completo-codarme)
+
+---
+
