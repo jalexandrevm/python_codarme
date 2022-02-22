@@ -2,37 +2,39 @@
 
 ## Índice
 
-1. [Listas - list](#listas---list)
-   1. [Declaração](#declara%C3%A7%C3%A3o)
-   2. [Mutabilidade](#mutabilidade)
-   3. [Ordenação](#ordena%C3%A7%C3%A3o)
-   4. [Heterogeneidade](#heterogeneidade)
-   5. [Iteração](#itera%C3%A7%C3%A3o)
-2. [Tuplas - tuple](#tuplas---tuple)
-   1. [Declaração](#declara%C3%A7%C3%A3o-1)
-   2. [Utilização](#utiliza%C3%A7%C3%A3o)
-   3. [Imutabilidade](#imutabilidade)
-3. [Conjuntos - set](#conjuntos---set)
-   1. [Declaração](#declara%C3%A7%C3%A3o-2)
-   2. [Mutabilidade](#mutabilidade-1)
-   3. [Utilização](#utiliza%C3%A7%C3%A3o-1)
-4. [Dicionários - map](#dicion%C3%A1rios---map)
-   1. [Declaração](#declara%C3%A7%C3%A3o-3)
-   2. [Mutabilidade](#mutabilidade-2)
-   3. [Utilização](#utiliza%C3%A7%C3%A3o-2)
-5. [Loop for](#loop-for)
-   1. [Declaração](#declara%C3%A7%C3%A3o-4)
-   2. [Iterabilidade](#iterabilidade)
-   3. [Utilização](#utiliza%C3%A7%C3%A3o-3)
-6. [Exercícios]()
-   1. [Lista inteiros](#declara%C3%A7%C3%A3o-4)
-   2. [Soma lista inteiros](#iterabilidade)
-   3. [Média lista inteiros](#utiliza%C3%A7%C3%A3o-3)
-   4. [Média notas alunos](#declara%C3%A7%C3%A3o-4)
-   5. [Média notas alunos dicionário - map](#iterabilidade)
-   6. [Lista imprime maior](#utiliza%C3%A7%C3%A3o-3)
-   7. [Dicionário conta letras](#iterabilidade)
-   8. [Lista imprime invertido](#utiliza%C3%A7%C3%A3o-3)
+- [Módulo 06](#módulo-06)
+  - [Índice](#índice)
+  - [Listas - list](#listas---list)
+    - [Declaração](#declaração)
+    - [Mutabilidade](#mutabilidade)
+    - [Ordenação](#ordenação)
+    - [Heterogeneidade](#heterogeneidade)
+    - [Iteração](#iteração)
+  - [Tuplas - tuple](#tuplas---tuple)
+    - [Declaração](#declaração-1)
+    - [Utilização](#utilização)
+    - [Imutabilidade](#imutabilidade)
+  - [Conjuntos - set](#conjuntos---set)
+    - [Declaração](#declaração-2)
+    - [Mutabilidade](#mutabilidade-1)
+    - [Utilização](#utilização-1)
+  - [Dicionários - map](#dicionários---map)
+    - [Declaração](#declaração-3)
+    - [Mutabilidade](#mutabilidade-2)
+    - [Utilização](#utilização-2)
+  - [Loop for](#loop-for)
+    - [Declaração](#declaração-4)
+    - [Iterabilidade](#iterabilidade)
+    - [Utilização](#utilização-3)
+  - [Exercícios](#exercícios)
+    - [Lista inteiros](#lista-inteiros)
+    - [Soma lista inteiros](#soma-lista-inteiros)
+    - [Média lista inteiros](#média-lista-inteiros)
+    - [Média notas alunos](#média-notas-alunos)
+    - [Média notas alunos dicionário - map](#média-notas-alunos-dicionário---map)
+    - [Lista imprime maior](#lista-imprime-maior)
+    - [Dicionário conta letras](#dicionário-conta-letras)
+    - [Lista imprime invertido](#lista-imprime-invertido)
 
 
 ## Listas - list
@@ -429,36 +431,154 @@ As atividades deste módulo ajudam a entender e a trabalhar com dados de diversa
 
 Criar lista de inteiros positivos a partir da entrada do usuário que se repete até informar número negativo
 
+```python
+numeros = []
+entrada = 0
+entrada = int(input("digite inteiro positivo: "))
+
+while entrada >= 0:
+  numeros.append(entrada)
+  entrada = int(input("digite inteiro positivo: "))
+
+print(numeros)
+
+```
+
 ### Soma lista inteiros
 
 Criar programa que some todos os números de uma lista fornecida
+
+```python
+lista = [1, 10, 20, 35, 22, 12]
+
+soma = 0
+
+for num in lista:
+  soma = soma + num
+
+print(soma)
+
+```
 
 ### Média lista inteiros
 
 Criar programa que calcule a média dos números de uma lista fornecida
 
+```python
+lista = [1, 10, 20, 35, 22, 12]
+
+soma = 0
+
+for num in lista:
+  soma = soma + num
+
+print(int(soma/len(lista)))
+
+```
+
 ### Média notas alunos
 
 Criar programa que calcule a média das notas dos alunos de uma lista de tuplas
+
+```python
+alunos = [
+    ("Alice", 8),
+    ("Bob", 7),
+    ("Carlos", 9),
+]
+
+soma = 0
+
+for nome, nota in alunos:
+  soma = soma + nota
+
+print(soma // len(alunos))
+
+```
 
 ### Média notas alunos dicionário - map
 
 Criar programa que calcule a média das notas dos alunos de uma lista de dicionários ou map
 
+```python
+alunos = [
+    {
+        "nome": "Alice",
+        "nota": 8,
+    },
+    {
+        "nome": "Bob",
+        "nota": 7,
+    },
+    {
+        "nome": "Carlos",
+        "nota": 9,
+    }
+]
+
+soma = 0
+
+for aluno in alunos:
+  soma = soma + aluno["nota"]
+
+print(soma // len(alunos))
+
+```
+
 ### Lista imprime maior
 
 Criar programa que imprime maior número de uma lista
+
+```python
+lista = [1, 3, 2, 5]
+...
+# Deve imprimir 5
+
+maior = None
+
+for num in lista:
+    if maior == None or num > maior:
+        maior = num
+
+print(maior)
+
+```
 
 ### Dicionário conta letras
 
 Criar prorgama que conte as letras de uma string passada pelo usuário, palavra ou frase inteira
 
+```python
+entrada = input("digite uma palavra: ")
+
+dic_letras = {}
+
+for letra in entrada:
+    if dic_letras.get(letra) == None:
+        dic_letras[letra] = 1
+    else:
+        dic_letras[letra] = dic_letras[letra] + 1
+
+print(dic_letras)
+
+```
+
 ### Lista imprime invertido
 
 Criar programa que imprima uma lista invertida **sem os métodos** `reverse()` ou `sort()`
 
+```python
+def inverte_lista(lista):
+    tmp = []
+    for itm in lista:
+        tmp.insert(0, itm)
+    return tmp
+lista = ["a", 5, {1}]
+lista_invertida = inverte_lista(lista)
+print(lista_invertida)
+# [{1}, 5, "a"]
 
-
+```
 
 ---
 
