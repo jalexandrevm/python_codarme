@@ -27,6 +27,7 @@ Foi pedido na aula ao vivo de número 2
 Esse *script* é apenas um exemplo de execução, pelo terminal de comandos, de uma sequência de comandos por meio de um arquivo
 
 Seu conteúdo possui apenas um comando *shebang* na primeira linha, informando o interpretador que deve ser usado para executar os comando a seguir
+
 ---
 [Voltar ao Topo](#exerc%C3%ADcios-python-completo-codarme)
 ---
@@ -49,6 +50,7 @@ Também podemos ver o uso de *conversões* de variáveis com o uso de *funções
 quantidade_itens = int(input("digite a quantidade de itens: "))
 print("o custo médio ficou em: "+str((valor_compras-desconto)/quantidade_itens))
 ```
+
 ---
 [Voltar ao Topo](#exerc%C3%ADcios-python-completo-codarme)
 ---
@@ -74,6 +76,7 @@ Valores *específicos* são solicitados para serem obtidos com a colocação dos
 Esta atividade usa novamente a entrada do usuário junto com a conversão de tipos
 
 Ao final faz um teste relacional para verificar se um cálculo pode ou não ser feito
+
 ---
 [Voltar ao Topo](#exerc%C3%ADcios-python-completo-codarme)
 ---
@@ -137,6 +140,7 @@ Nesta atividade usamos o loop *while* para dar ao usuário *3 tentativas* para a
 No *próprio programa* declaramos como uma *constante* um valor qualquer para ser **descoberto**
 
 Caso o usuário *erre* 3 vezes deve ser impresso **"perdeu"** e caso *acerte* imprimir **"ganhou"**
+
 ---
 [Voltar ao Topo](#exerc%C3%ADcios-python-completo-codarme)
 ---
