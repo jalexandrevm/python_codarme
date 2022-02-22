@@ -157,6 +157,95 @@ Caso algum argumento seja informado na chamada da função, os valores serão so
 
 ## Exercícios
 
+### Número é primo
+
+```python
+def e_primo(num):
+  # pulo do gato
+  if num * num < 2:
+    return False
+  divisor = 2
+  primoStatus = True
+  while divisor < num and primoStatus:
+      if (num % divisor == 0):
+          primoStatus = False
+      divisor += 1
+  return primoStatus
+
+```
+
+
+### Maior da lista e posição
+
+```python
+def posmaior(lista):
+  maior = None
+  pos = 0
+  for i in range(len(lista)):
+      if maior == None or lista[i] > maior:
+          maior = lista[i]
+          pos = i
+
+  return (pos, maior)
+
+```
+
+
+### Maior de idade pessoa tupla
+
+```python
+def maior_idade(pessoa):
+  nome, idade = pessoa
+  if idade >= 18:
+    print("maior de idade")
+  else:
+    print("menor de idade")
+
+```
+
+
+### Maior de idade pessoa tupla ou dicionário
+
+```python
+def maior_idade(pessoa):
+  if type(pessoa) == tuple:
+    nome, idade = pessoa
+  elif type(pessoa) == dict:
+    idade = pessoa["idade"]
+  else: # desnecessário se argumento válido
+    return "formato de pessoa inválido"
+  if idade >= 18:
+    print("maior de idade")
+  else:
+    print("menor de idade")
+
+```
+
+
+### Elemento tem na lista
+
+```python
+def constalista(lista, elemento):
+    for item in lista:
+        if item == elemento:
+            return True
+    return False
+
+```
+
+
+### Fatorial recursivo
+
+```python
+def fatorial(numero):
+    if numero <= 1:
+        return 1
+    else:
+        return numero * fatorial(numero - 1)
+
+```
+
+
 ---
 
 [Voltar ao Topo](#m%C3%B3dulo-07)
