@@ -2,10 +2,10 @@
 
 ## Índice
 
-1. [Condições - if/elif/else](#listas---list)
+1. [Condições - if/elif/else](#condi%C3%A7%C3%B5es---ifelifelse)
 	1. [Declaração](#declaração)
 	2. [Utilização](#utilização)
-2. [Repetições ou loops while](#tuplas---tuple)
+2. [Repetições ou loops while](#repeti%C3%A7%C3%B5es-ou-loops-while)
 	1. [Declaração](#declaração-1)
 	2. [Utilização](#utilização-1)
 3. [Exercícios](#exerc%C3%ADcios)
@@ -67,19 +67,16 @@ else:
 
 ## Repetições ou loops while
 
-As *tuplas* são bem parecidas com as *listas* mas com algumas peculiaridades
+Esta estrutura tem como finalidade repetir um bloco de códigos enquanto uma condição for verdadeira
 
 ### Declaração
 
-Na *declaração da variável* do tipo tupla no lugar dos *colchetes* usamos *parênteses* ou simplesmente nada, mas recomenda-se o uso principalmente pela organização
+Sua declaçração é feita com o teste de uma condição no início do bloco a ser repetido
 
 ```python
-numero = () # lista vazia
-
-notas = (7, 9, 8.5, 10) # preenchida
-
-notas = 7, 10, 8.5 # não recomendado
-
+while condição:
+	bloco_códigos
+	atualizar_condição
 ```
 
 ### Utilização
