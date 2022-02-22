@@ -7,7 +7,7 @@
    2. [Função sem retorno]()
    3. [Função com retorno]()
    4. [Função com argumentos nomeados]()
-   5. []()
+   5. [Função com argumento padrão]()
 2. [Exercícios]()
    1. []()
    2. []()
