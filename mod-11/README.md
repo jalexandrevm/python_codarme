@@ -27,6 +27,7 @@ Na versão mais nova o python3 não existe mais, agora usar:
 Nos arquivos python incluir:
 
 > `from flask import Flask`
+> 
 > para conseguir usar o flask
 > precisamos instalar o pacote
 > na venv que criamos
@@ -50,14 +51,14 @@ source venv/Scripts/activate
 Para o seu funcionamento, o Flask precisa de duas variáveis de ambiente:
 
 > - FLASK_APP=aplication-name
-> >diz pro Flask qual aplicação rodar
-> >ex: FLASK_APP=test.py flask run
+> >diz pro Flask qual aplicação rodar ex:
+> >
+> >`FLASK_APP=test.py flask run`
 > - FLASK_ENV=development
-> >informa ao Flask o modo de execução do
-> >aplicativo
-> >em *produção* precisamos parar tudo pra 
+> >informa ao Flask o modo de execução do aplicativo
+> >* em *produção*, precisamos parar tudo pra 
 > >executar novamente e atualizar
-> >em *development* quando alteramos algo
+> >* em *development*, quando alteramos algo
 > >o Flask já faz isso automaticamente
 
 
