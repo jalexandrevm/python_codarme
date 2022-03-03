@@ -115,7 +115,7 @@ make_response()
 
 ## Criar Novo Evento
 
-Quando recebemos uma requisição POST do cliente, devemos primeiramente **"parciar"** os dados para conseguir usá-los
+Quando recebemos uma requisição POST do cliente, devemos primeiramente **"parsiar"** ou apenas fazer o **parsing** dos dados para conseguir usá-los
 
 > - pegar dados de request recebida
 > - usar json.loads() nos dados criando dict
