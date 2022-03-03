@@ -7,7 +7,7 @@ class Inscrito:
     Inscrito.id += 1
     self.id = Inscrito.id
     self.nome = nome
-    self.local_inscricao = local
+    self.local = local
     self.inscricoes = []
   def addInscricao(self, nome_disputa, cod_inscricao):
     self.inscricoes.append({

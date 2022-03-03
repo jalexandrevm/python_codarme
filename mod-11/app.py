@@ -33,6 +33,13 @@ disputas.append(disp1)
 # no nosso caso é o nome do arquivo
 app = Flask(__name__)
 
+# busca um item em uma lista
+def acha_item_or_404(id, lst):
+  for item in lst:
+    if item.id == id:
+      return item
+  abort(404, "o item não foi encontrado")
+
 @app.errorhandler(400)
 def dadoinvalido(erro):
   return (jsonify(erro=str(erro)), 400)
@@ -84,6 +91,13 @@ def docs_api_torneio():
     "request": "POST",
     "route": "/api/torneio/cadastrados",
     "body": "JSON com chave 'nome' e 'local'",
+    "retorna": "id e link do cadastro"
+  })
+  lst_docs_api.append({
+    "descricao": "Requisição para editar um participante",
+    "request": "PUT",
+    "route": "/api/torneio/cadastrados/id/",
+    "body": "JSON com chave 'id', 'nome' e 'local'",
     "retorna": "id e link do cadastro"
   })
   lst_docs_api.append({
@@ -186,6 +200,20 @@ def listadisputas():
   for item in disputas:
     lst_tmp.append(item.competicaoToJSON())
   return jsonify(lst_tmp)
+
+@app.route("/api/torneio/cadastrados/id/", methods=["PUT"])
+def edita_participante():
+  dado = json.loads(request.data)
+  id = dado.get("id")
+  nome = dado.get("nome")
+  local = dado.get("local")
+  if not nome or not local or not id:
+    abort(400, "'id', 'nome' e 'local' precisam ser informados!")
+  else:
+    item = acha_item_or_404(id, cadastrados)
+    item.nome = nome
+    item.local = local
+  return jsonify(item.__dict__)
 
 @app.route("/api/torneio/cadastrados", methods=["POST"])
 def cadastraparticipante():
