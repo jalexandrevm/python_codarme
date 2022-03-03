@@ -9,6 +9,10 @@ class Inscrito:
     self.nome = nome
     self.local = local
     self.inscricoes = []
+    self._1id = Inscrito.id
+    self._2nome = nome
+    self._3local = local
+    self._4inscricoes = []
   def addInscricao(self, nome_disputa, cod_inscricao):
     self.inscricoes.append({
       "disputa": nome_disputa,
@@ -68,7 +72,7 @@ class Competicao:
       lst_tmp_inscritos.append({
         "cod_cadastrado": item.id,
         "Apelido": item.nome,
-        "Localização": item.local_inscricao,
+        "Localização": item.local,
         "Inscrições": item.inscricoes,
       })
     return lst_tmp_inscritos
