@@ -179,3 +179,18 @@ senha = dado.get("senha")
 
 ---
 
+## Exemplo
+
+Disponibilizei dois arquivos como exemplo de implementação de um servidor:
+
+- `app.py` com um servidor para as requsições
+- `concurso.py` com duas classes que servem para controlar torneios e participantes
+
+No caminho `/api/torneio/docs` disponibilizei uma breve documentação em JSON da implementação da API
+
+---
+
+[Voltar ao Topo](#m%C3%B3dulo-11)
+
+---
+
