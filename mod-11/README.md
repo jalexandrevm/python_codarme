@@ -14,19 +14,22 @@
 
 ## Introdução ao Flask
 
-Criar novo projeto
-Criar venv neste projeto
-Instalar o flask no venv
+- Criar novo projeto
+- Criar venv neste projeto
+- Instalar o flask no venv
 
-python3 não tem mais, usar:
+Na versão mais nova o python3 não existe mais, agora usar:
 
 -python -m venv venv
 
--Flask - usando o framework
+### Flask - usando o framework
 
-from flask import Flask
+Nos arquivos python incluir:
 
->para conseguir usar o flask, precisamos instalar o pacote na venv que criamos
+> `from flask import Flask`
+> para conseguir usar o flask
+> precisamos instalar o pacote
+> na venv que criamos
 
 Na versão 3.10.2 o `source venv/bin/activate` não funciona mais, a pasta bin sumiu na nova versão e criou-se a Scripts agora com o activate
 
