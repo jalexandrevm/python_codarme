@@ -354,7 +354,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-## Adicionando Data as Torneios
+## Adicionando Data aos Torneios
 
 
 
