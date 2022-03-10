@@ -27,9 +27,9 @@ Criado a *venv*, precisamos agora instalar dentro dela o Django com o comando ab
 > Nota:
 > - de dentro do VS Code, ao abrir o terminal Git Bash, a `venv` já estará ativa
 > - de fora, ativamos a `venv` de 2 maneiras:
-> > 1.se na `venv` tiver a pasta `bin`, ativamos com `source venv/bin/activate`
+> > 1. se na `venv` tiver a pasta `bin`, ativamos com `source venv/bin/activate`
 > >
-> > 2.caso haja `Scripts`, usar `source venv/Scripts/activate`
+> > 2. caso haja `Scripts`, usar `source venv/Scripts/activate`
 
 ```python
 django-admin startproject nome_pjt . 
