@@ -10,9 +10,9 @@
    6. [Django ORM e Migrações](#django-orm-e-migrações)
    7. [Fazendo consultas pelo Shell](#fazendo-consultas-pelo-shell)
    8. [Django Admin](#django-admin)
-   9. [Listagem de Disputas](#listagem-de-disputas)
-   10. [Adicionando Data às Disputas](#adicionando-data-às-disputas)
-   11. [Buscando e Exibindo Disputa](#buscando-e-exibindo-disputa)
+   9. [Listagem de Torneios](#listagem-de-torneios)
+   10. [Adicionando Data aos Torneios](#adicionando-data-aos-torneios)
+   11. [Buscando e Exibindo Torneio](#buscando-e-exibindo-torneio)
    12. [Navegando entre Páginas do App](#navegando-entre-páginas-do-app)
    13. [Enviando um Formulário](#enviando-um-formulário)
 
@@ -269,7 +269,7 @@ Por fim, após a requisição ser roteada pelo urls do app e direcionada a funç
 
 ---
 
-## Trabalhando com Banco de Dados
+## Trabalhando com Bancos de Dados
 
 Neste capítulo vamos apresentar muito por alto a ideia de um banco de dados relacional no qual gravaremos de forma mais persistente, nossas entidades e suas relações entre todas elas
 
@@ -285,7 +285,7 @@ Nos nossos exemplos usaremos o Django ORM para fazer a persistência dos nossos 
 
 ---
 
-## Django ORM e migrações
+## Django ORM e Migrações
 
 Agora vamos ver alguns exemplos do uso do Django ORM com o SQLite porém, futuramente migraremos para o Postgres
 
