@@ -122,7 +122,7 @@ Desta forma, informamos ao nosso servidor que quando o caminho tiver *agenda* ne
 
 ---
 
-## Criando Models e Exibir Torneio
+## Criando Models e Exibindo Torneio
 
 Quando criamos nosso app com o Django o arquivo `models.py` vai nos ajudar a declarar nossas entidades
 
@@ -259,7 +259,7 @@ Por fim, após a requisição ser roteada pelo urls do app e direcionada a funç
 
 ---
 
-## Trabalhando com Bancos de Dados
+## Trabalhando com Banco de Dados
 
 Neste capítulo vamos apresentar muito por alto a ideia de um banco de dados relacional no qual gravaremos de forma mais persistente, nossas entidades e suas relações entre todas elas
 
@@ -334,7 +334,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-## Listagem de Eventos
+## Listagem de Torneios
 
 
 
@@ -344,7 +344,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-## Adicionando Data aos Eventos
+## Adicionando Data as Torneios
 
 
 
@@ -354,7 +354,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-## Buscando e Exibindo Evento
+## Buscando e Exibindo Torneio
 
 
 
@@ -364,7 +364,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-## Navegando entre Páginas do app
+## Navegando entre Páginas do App
 
 
 
