@@ -2,15 +2,19 @@
 
 ## Índice
 
-   1. [Introdução ao Flask](#objetos-imutáveis)
-   2. [Variáveis do Ambiente Flask](#objetos-mutáveis)
-   3. [Listando Eventos](#definindo-classes)
-   4. [Detalhar Evento](#herança)
-   5. [Lidando com erros no Flask](#exercícios)
-   6. [Criar Novo Evento](#exercícios)
-   7. [Deletar Evento](#exercícios)
-   8. [Editar Evento (PUT)](#exercícios)
-   9. [Editar Evento Parcial (PATCH)](#exercícios)
+   1. [Criando Projeto Django](#criando-projeto-django)
+   2. [Criando Nosso App](#criando-nosso-app)
+   3. [Criando Models e Exibindo Torneio](#criando-models-e-exibindo-torneio)
+   4. [Utilizando Django Template](#utilizando-django-template)
+   5. [Trabalhando com Bancos de Dados](#trabalhando-com-bancos-de-dados)
+   6. [Django ORM e Migrações](#django-orm-e-migrações)
+   7. [Fazendo consultas pelo Shell](#fazendo-consultas-pelo-shell)
+   8. [Django Admin](#django-admin)
+   9. [Listagem de Disputas](#listagem-de-disputas)
+   10. [Adicionando Data às Disputas](#adicionando-data-às-disputas)
+   11. [Buscando e Exibindo Disputa](#buscando-e-exibindo-disputa)
+   12. [Navegando entre Páginas do App](#navegando-entre-páginas-do-app)
+   13. [Enviando um Formulário](#enviando-um-formulário)
 
 ## Criando Projeto Django
 
@@ -59,6 +63,12 @@ django-admin startproject torneios .
 ```
 
 O django criou uma pasta com o nome "torneios" e deixou nosso servidor `manage.py` em `.` onde foi executado o comando
+
+---
+
+[Voltar ao Topo](#módulo-12)
+
+---
 
 ## Criando nosso app
 
@@ -118,7 +128,7 @@ Desta forma, informamos ao nosso servidor que quando o caminho tiver *agenda* ne
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-12)
+[Voltar ao Topo](#módulo-12)
 
 ---
 
@@ -186,7 +196,7 @@ No próximo capítulo explico melhor a linha com `template_name="agenda/exibe_di
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-12)
+[Voltar ao Topo](#módulo-12)
 
 ---
 
@@ -255,7 +265,7 @@ Por fim, após a requisição ser roteada pelo urls do app e direcionada a funç
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-12)
+[Voltar ao Topo](#módulo-12)
 
 ---
 
@@ -271,7 +281,7 @@ Nos nossos exemplos usaremos o Django ORM para fazer a persistência dos nossos 
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-12)
+[Voltar ao Topo](#módulo-12)
 
 ---
 
@@ -320,7 +330,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-12)
+[Voltar ao Topo](#módulo-12)
 
 ---
 
@@ -330,7 +340,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-12)
+[Voltar ao Topo](#módulo-12)
 
 ---
 
@@ -340,7 +350,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-12)
+[Voltar ao Topo](#módulo-12)
 
 ---
 
@@ -350,7 +360,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-12)
+[Voltar ao Topo](#módulo-12)
 
 ---
 
@@ -360,7 +370,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-12)
+[Voltar ao Topo](#módulo-12)
 
 ---
 
@@ -370,7 +380,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-12)
+[Voltar ao Topo](#módulo-12)
 
 ---
 
@@ -380,7 +390,7 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ---
 
-[Voltar ao Topo](#m%C3%B3dulo-12)
+[Voltar ao Topo](#módulo-12)
 
 ---
 
