@@ -326,7 +326,87 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ## Fazendo consultas pelo Shell
 
+Agora vamos usar o terminal do VS Code para interagir diretamente com nosso projeto e testar nossas entidades e as persistências ao banco
 
+Para isso, precisamos abrir o terminal, com a *venv* ativada e com o *sqlite3* funcionando, e digitar:
+
+> `python manage.py shell`
+> ou
+> `python3 manage.py shell`
+> para versões com o 2 e 3 ativos
+
+Já dentro do ambiente *shell* podemos importar nossas entidades persistidas no banco com `from app.models import Classes`
+
+Agora podemos criar variáveis para ter um objeto das classes importadas nelas e fazer operações de gravação e leitura no banco
+
+Alguns comandos que podem ser executados no shell
+
+```python
+# importando as classes
+from agenda.models import Atletas, Categoria, Campeonato
+# criando registros no banco
+Categoria.objects.create(nome="Amador")
+Categoria.objects.create(nome="Profissional")
+Categoria.objects.create(nome="Master")
+Categoria.objects.create(nome="Senior")
+```
+
+Após os comandos acima, podemos entrar no `python manage.py dbshell` e executar uma consulta direta a tabela para verificar os registros
+
+> ```sql
+> select * from agenda_categoria;
+> ```
+> nota: lembrar do ponto e vírgula no final do comando
+
+O resultado do comando sairá assim:  
+> 1|Amador|  
+> 2|Profissional|  
+> 3|Master|  
+> 4|Senior|  
+
+Para que os nomes das colunas apareçam em cima dos registros basta ativar os cabeçalhos com `.header on` antes de executar a consulta, saindo assim:  
+> id|nome  
+> 1|Amador  
+> 2|Profissional  
+> 3|Master  
+> 4|Senior  
+
+Agora para criar um campeonato basta antes buscar uma categoria no banco e passá-la como o objeto da categoria do campeonato para criá-lo e em seguida persistir o novo objeto *campeonato* no banco
+
+Podemos fazer da seguinte maneira:  
+```python
+# numa variável salvamos um objeto Categoria buscado do banco
+categ = Categoria.objects.get(nome="Master")
+# categ após receber o objeto
+<Categoria: Categoria object (3)>
+# em outra criaremos um objeto do tipo Campeonato passando o objeto Categoria como um de seus atributos
+disputa = Campeonato(nome="Xadrez", local="Biblioteca", link_detalhe="", data_inicio="2022-03-15", data_final="2022-03-18", tipo_categoria=categ)
+# disputa após criarmos o objeto
+<Campeonato: Campeonato object (None)>
+# salvamos disputa no banco assim
+disputa.save()
+# após salvar no banco perceba o id
+<Campeonato: Campeonato object (1)>
+# retornando valores do objeto
+disputa.nome
+# retorna
+'Xadrez'
+disputa.tipo_categoria.nome
+# retorma
+'Master'
+```
+
+Quando buscamos objetos no banco podemos filtrar de várias maneiras e geralmente usamos `Classe.objects.filter(atributo=valor)`
+
+```python
+Campeonato.objects.filter(nome="xadrez")
+# passando um objeto como filtro
+Campeonato.objects.filter(tipo_categoria=categ)
+# ou até mesmo um atributo do objeto
+Campeonato.objects.filter(tipo_categoria__nome="xadrez")
+# retornando
+<QuerySet [<Campeonato: Campeonato object (1)>]>
+```
 
 ---
 
@@ -336,7 +416,19 @@ Para verificar se tudo funcionou temos o comando `python manage.py dbshell` que 
 
 ## Django Admin
 
+O modo administrativo do Django pode ser acessado pelo caminho `admin/` quando acessamos a url do nosso servidor
 
+Para conseguir o acesso precisamos deixar sem comentar o caminho `path` no arquivo `urls.py` na pasta do nosso projeto, a linha `path('admin/', admin.site.urls),`
+
+No terminal da `venv` executar `python manage.py createsuperuser` para criar o nosso **super-usuário** para depois acessar a página de admin do Django
+
+Acessado o modo admin do Django podemos ver as tabelas de usuários e de grupos, porém, para visualizar nossas entidades precisamos incluir, no arquivo `admin.py` de nosso app, as seguintes linhas que irão registrá-las:
+
+```python
+admin.site.register(Categoria)
+admin.site.register(Campeonato)
+admin.site.register(Atletas)
+```
 
 ---
 
